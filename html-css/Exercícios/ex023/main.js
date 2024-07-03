@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 row.appendChild(populacaoCell);
                 tableBody.appendChild(row);
             });
-
+            
             document.querySelectorAll('#tabela tbody td:nth-child(2)').forEach(dado => {
                 dado.style.textAlign = 'right';
             });
