@@ -15,11 +15,11 @@ header {
   text-align: center;
 }
 
-menu ul {
+nav ul {
   list-style-type: none;
 }
 
-menu li {
+nav li {
   display: inline-block;
   color: black;
   padding: 10px;
