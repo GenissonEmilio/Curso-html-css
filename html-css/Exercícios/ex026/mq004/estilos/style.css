@@ -43,6 +43,16 @@ img {
   display: none;
 }
 
-img#phone {
-  display: block;
-}
+img#phone { display: block; }
+img#tablet { display: none; }
+img#print { display: none; }
+img#pc { display: none; }
+img#tv { display: none; }
+
+/*
+small screen: - 600px
+mobile devices: 320px-768px
+Ipads, tablets: 768px-992x
+Desktops: 993px-1200px
+Edtra large screen, Tv: 1201px
+*/
