@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       menu.style.display = 'block';
     }
-  });
+  })
   
 })
