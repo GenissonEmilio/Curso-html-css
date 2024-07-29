@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   document.addEventListener('resize', () => {
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth >= 481) {
       menu.style.display = 'block';
     } else {
       menu.style.display = 'none'
