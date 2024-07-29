@@ -8,6 +8,14 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       menu.style.display = 'block';
     }
-  })
+  });
+  
+  document.addEventListener('resize', () => {
+    if (window.innerWidth >= 768) {
+      menu.style.display = 'block';
+    } else {
+      menu.style.display = 'none'
+    }
+  });
   
 })
