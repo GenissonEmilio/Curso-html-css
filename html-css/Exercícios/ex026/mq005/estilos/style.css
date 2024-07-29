@@ -29,7 +29,7 @@ span#burguer {
 }
 
 span#burguer {
-  transition: 0.5s;
+  transition: 1s;
 }
 
 span#burguer:hover {
