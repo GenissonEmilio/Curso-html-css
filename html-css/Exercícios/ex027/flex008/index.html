@@ -20,18 +20,35 @@
       border: 1px solid black;
       padding: 20px;
     }
+    
+    #um {
+      align-self: center;
+    }
+    
+    #dois {
+      align-self: flex-start;
+    }
+    
+    #tres {
+      align-self: stretch;
+    }
+    
+    #quatro {
+      align-self: flex-end
+    }
+    
+    #cinco {
+      align-self: auto;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="filho" id="um">A</div>
     <div class="filho" id="dois">B</div>
-    <div class="filho" id="tres" style="order: 1;">C</div>
-    <div class="filho">D</div>
-    <div class="filho">E</div>
-    <div class="filho">F</div>
-    <div class="filho" style="order: -1;">G</div>
-    <div class="filho">H</div>
+    <div class="filho" id="tres">C</div>
+    <div class="filho" id="quatro">D</div>
+    <div class="filho" id="cinco">E</div>
   </div>
 </body>
 </html>
