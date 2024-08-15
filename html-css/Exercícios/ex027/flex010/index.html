@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexboxs</title>
+  <style>
+    div.container {
+      display: flex;
+      width: 200px;
+      flex-flow: row nowrap;
+      background-color: lightpink;
+    }
+    
+    div.filho {
+      text-align: center;
+      background-color: lightblue;
+      border: 1px solid black;
+      flex-basis: 100px;
+      flex-shrink: 1;
+      flex-grow: 1;
+    }
+    
+    div#um {
+      flex-shrink: 1;
+    }
+    
+    div#dois {
+      flex-shrink: 0;
+    }
+    
+    div#tres {
+      flex-shrink: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="filho" id="um">A</div>
+    <div class="filho" id="dois">B</div>
+    <div class="filho" id="tres">C</div>
+  </div>
+</body>
+</html>
