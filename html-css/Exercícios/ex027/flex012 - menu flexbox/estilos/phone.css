@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+header {
+  text-align: center;
+}
+
+header nav a {
+  display: block;
+  margin-bottom: 8px;
+}
