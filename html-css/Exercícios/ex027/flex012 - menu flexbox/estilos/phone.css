@@ -1,6 +1,7 @@
 @charset 'UTF-8';
 
 header {
+  display: block;
   text-align: center;
 }
 

@@ -14,10 +14,9 @@ body {
   width: 100vw;
 }
 
-/*Mudar entre display flex e display padrão para o tamanho da tela*/
 header {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   background-color: gray;
   color: white;
@@ -25,12 +24,11 @@ header {
 }
 
 header h1 {
-  border: 1px dotted black;
   padding-bottom: 10px;
 }
 
 header nav {
-  border: 1px dotted black;
+  flex: 0 1 auto;
 }
 
 header nav a {
