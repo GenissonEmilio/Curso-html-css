@@ -26,9 +26,6 @@ span#burguer {
   text-align: center;
   padding: 10px;
   cursor: pointer;
-}
-
-span#burguer {
   transition: 1s;
 }
 
