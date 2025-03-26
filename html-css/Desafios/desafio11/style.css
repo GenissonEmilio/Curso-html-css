@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+#astro {
+  position: relative;
+  background-image: url('imagens/espaco.jpg');
+  background-position: right center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+#astro img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}

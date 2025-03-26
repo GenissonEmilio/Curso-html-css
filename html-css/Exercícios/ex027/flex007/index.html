@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox</title>
+  <style>
+    div.container {
+      display: flex;
+      height: 200px;
+      flex-flow: row nowrap;
+      align-items: flex-start;
+      background-color: lightpink;
+    }
+    
+    div.filho {
+      text-align: center;
+      background-color: lightblue;
+      border: 1px solid black;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="filho" id="um">A</div>
+    <div class="filho" id="dois">B</div>
+    <div class="filho" id="tres" style="order: 1;">C</div>
+    <div class="filho">D</div>
+    <div class="filho">E</div>
+    <div class="filho">F</div>
+    <div class="filho" style="order: -1;">G</div>
+    <div class="filho">H</div>
+  </div>
+</body>
+</html>

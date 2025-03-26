@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkbox e Radio</title>
+</head>
+<body>
+  <h1>Checkboxs e Radios</h1>
+  <form action="cadastro.js">
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" name="sexo" id="mas" value="M" checked>
+      <label for="mas">Masculino</label>
+      <input type="radio" name="sexo" id="fem" value="F">
+      <label for="fem">Feminino</label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Esportes favoritos</legend>
+      <input type="checkbox" name="nat" id="nat">
+      <label for="nat">Natação</label>
+      <input type="checkbox" name="ten" id="ten">
+      <label for="ten">Tênis</label>
+      <input type="checkbox" name="cor" id="cor" checked>
+      <label for="cor">Corrida</label>
+      <input type="checkbox" name="esc" id="esc">
+      <label for="esc">Escalada</label>
+    </fieldset>
+    
+    <div>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </div>
+  </form>
+</body>
+</html>

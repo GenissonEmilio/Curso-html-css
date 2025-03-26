@@ -1,0 +1,6 @@
+Estrutura da tabela(exercício 1):
+
+4 colunas e 5 linhas, as 15 células devem conter os números crescente a partir do número 1, coluna número 3 deve ocupar duas linhas, na linha 3 coluna 1 o número 8 deve ocupar três colunas, na linha 4 coluna 1 o número 10 deve ocupar duas linhas, o número 11 deve ocupar duas colunas.
+
+Estrutura da tabela(exercício 2): 
+5 colunas e 5 linhas, a célula A deve ocupar 4 colunas, o B deve ocupar 4 linhas, o C vai ocupar 4 linhas, o M deve ocupar 4 colunas.

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flex box</title>
+  <style>
+    div.container {
+      display: flex;
+      width: 200px;
+      flex-flow: row nowrap;
+      background-color: lightpink;
+    }
+    
+    div.filho {
+      text-align: center;
+      background-color: lightblue;
+      border: 1px solid black;
+    }
+    
+    div#um {
+      flex: auto;
+    }
+    
+    div#dois {
+      flex: none;
+    }
+    
+    div#tres {
+      flex: initial;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="filho" id="um">A</div>
+    <div class="filho" id="dois">B</div>
+    <div class="filho" id="tres">C</div>
+  </div>
+</body>
+</html>

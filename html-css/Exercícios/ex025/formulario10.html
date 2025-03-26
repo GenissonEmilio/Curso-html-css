@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Saidas</title>
+</head>
+<body>
+  <h1>Saidas</h1>
+  <form action="cadastro.js" method="get">
+    <div>
+      <label for="ano">Em que ano você nasceu</label>
+      <input type="number" name="ano" id="ano" min="1900" max="2024" oninput="calIdade()">
+    </div>
+    
+    <div>
+      <label for="idade">Sua idade é</label>
+      <output id="idade">0</output>
+    </div>
+    
+    <div>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </div>
+  </form>
+  
+  <script>
+    function calIdade() {
+      let atual = new Date().getFullYear();
+      idade.innerHTML = atual - Number(ano.value);
+    }
+  </script>
+</body>
+</html>
