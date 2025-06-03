@@ -24,3 +24,4 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
 });
+
