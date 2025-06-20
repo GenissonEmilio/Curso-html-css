@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item1 {
+  grid-area: 1 / 1 / span 1 / span 3;
+  background-color: #f8b400;
+}
+
+.item2 {
+  grid-area: 2 / 1/ span 1 / span 3;
+  background-color: #f85f73;
+}
+
+.item3 {
+  grid-area: 3 / 1 / span 1 / span 2;
+  background-color: #8ac926;
+}
+
+.item4 {
+  grid-area: 3 / 3 / span 1 / span ;
+  background-color: #1982c4;
+}
+
+.item5 {
+  grid-area: 4 / 1 / span 1 / span 3;
+  background-color: #6a4c93;
+}
